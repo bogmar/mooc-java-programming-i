@@ -1,0 +1,5 @@
+array - masiv
+string - niz
+ArrayList<Integer>; ArrayList<Double>;
+Variables in Java can be divided into two categories: value type (primitive) and reference type (reference type) variables
+

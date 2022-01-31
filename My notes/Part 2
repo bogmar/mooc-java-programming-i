@@ -1,0 +1,8 @@
+double percentageOfPositives = 100.0 * numberOfPositives / (numberOfPositives + numberOfNegatives); // percentage
+using WHILE loops when we need to repeat something until the user provides a certain input
+Factorials are used especially in probability calculus when examining different possible orders of a set. For example, a group of five people can form 5! different lines, and a pack of 52 cards can be in 52! different orders. Factorial can also be used to calculate combinations; For example it is possible to deal 52! / (5! * (52-5)!) different hands from a 52 card pack, and you can form 40! / (7! * (40 - 7)!) different 7 number lottery lines from 40 numbers.
+you can return from a void method with return; (prosto return)
+what is call stack?
+
+TODO christmas tree at the end of part 2
+

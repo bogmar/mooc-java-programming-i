@@ -1,0 +1,22 @@
+method parameters - parametri podavani kum java metodite (funkcii)
+scanner.nextLine() from util.java.scanner
+string literal - string v ""
+variable names cannot start with numbers, not consist of numbers-only
+Integer.valueOf
+if one operand of the operation + is tring, the other operand will be changed into string, too
+------------------------------------------------
+System.out.println("Four: " + (2 + 2));
+System.out.println("But! Twenty-two: " + 2 + 2);
+------------------------------------------------
+integer variables are represented with 32 bits
+pri delenie s int: int 3 / int 2 = int 1
+ako edno ot dvete chisla e double, to rezultata e double
+double result = dividend / divisor * 1.0; //Correct!. The calculation dividend / divisor is executed first. Since both variables are integers, so is the result.
+Logical operators are not used for changing the boolean value from true to false, or false to true.
+
+
+https://www.reddit.com/r/javahelp/wiki/scanner
+https://en.wikipedia.org/wiki/Modulo_operation
+https://en.wikipedia.org/wiki/Combination
+https://www.cs.umd.edu/~clin/MoreJava/Intro/expr-int-div.html#:~:text=Java%20does%20integer%20division%2C%20which,can%20come%20in%20very%20handy.
+
