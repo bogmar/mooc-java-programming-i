@@ -2,7 +2,11 @@ array - masiv
 string - niz
 ArrayList<Integer>; ArrayList<Double>;
 Variables in Java can be divided into two categories: value type (primitive) and reference type (reference type) variables
-String line : lines (iterator za String Lines)
+String line : lines (iterator za String Lines) - also known as for-each loop!
 import java.util.ArrayList;
 list.size()
+If the parameter given to remove is the same type as the values in the list, but not an integer, (integers are used to remove from a given index), it can be used to remove a value directly from the list. aka list.remove("First");
+list.remove(Integer.valueOf(15));
+public static void print(ArrayList<String> list)
+list.contains
 
