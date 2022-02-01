@@ -8,5 +8,9 @@ list.size()
 If the parameter given to remove is the same type as the values in the list, but not an integer, (integers are used to remove from a given index), it can be used to remove a value directly from the list. aka list.remove("First");
 list.remove(Integer.valueOf(15));
 public static void print(ArrayList<String> list)
-list.contains
+arraylist.contains
+array.length (not array[].length() )
+exercise Index was not found at arrays solution vs mine
+int in java is 32 bits. one bit is reserved for the sign
+array is an object so changing it inside a method is persistant
 
