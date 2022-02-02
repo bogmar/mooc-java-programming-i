@@ -13,4 +13,6 @@ array.length (not array[].length() )
 exercise Index was not found at arrays solution vs mine
 int in java is 32 bits. one bit is reserved for the sign
 array is an object so changing it inside a method is persistant
+When comparing strings, you should make sure the string variable has some value assigned to it. If it doesn't have a value, the program will produce a NullPointerException error, which means that no value has been assigned to the variable, or that it is empty (null).
+revisit part03-Part03_25.Login's solution model
 
