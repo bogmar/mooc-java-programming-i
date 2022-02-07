@@ -12,4 +12,5 @@ toString method always ==    System.out.println(pekka); // same as System.out.pr
 the keyword final means that the value of the variable cannot be modified
 persons.add(new Person(name));
 string.isEmpty();
+new Scanner(Paths.get("file.txt"))
 
