@@ -3,7 +3,7 @@ scanner.nextLine() from util.java.scanner
 string literal - string v ""
 variable names cannot start with numbers, not consist of numbers-only
 Integer.valueOf
-if one operand of the operation + is tring, the other operand will be changed into string, too
+if one operand of the operation + is string, the other operand will be changed into string, too
 ------------------------------------------------
 System.out.println("Four: " + (2 + 2));
 System.out.println("But! Twenty-two: " + 2 + 2);

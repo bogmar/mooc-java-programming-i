@@ -4,7 +4,7 @@ the METHODS define what the object does
 new keyword = constructor
 instance variables = object fields or object attributes
 a counstructor is added after the instance variables
-the value of any object references will be null, meaning that they do not point to anything, and the values of primitives will be 0
+the value of any object references will be null, meaning that they do not point to anything, and the values of primitives will be 0 // BUT ARE THEY??????
 the static modifier indicates that the method does not belong to an object and thus cannot be used to access any variables that belong to objects.
 If a method receives as parameters all the variables whose values ​​it uses, it can have a static modifier.
 static vs instance methods - https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/
