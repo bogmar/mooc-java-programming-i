@@ -10,4 +10,7 @@ The equals method is implemented in such a way that it can be used to compare th
 if (this == compared)
 if (!(compared instanceof Person))
 Every class we create (and every ready-made Java class) inherits the class Object, even though it is not specially visible in the program code. This is why an instance of any class can be passed as a parameter to a method that receives an Object type variable as its parameter.
+instanceof vs getClass() - for equals getClass() is better because it's more performant (instanceof checks if the object on the left is an instance of the object of the right or some subtype. getClass() returns the object's type.
+you can call a constructor within a constructor with this.
+valueOf vs parseInt
 
