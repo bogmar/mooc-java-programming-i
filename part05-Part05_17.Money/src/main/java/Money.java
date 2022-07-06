@@ -58,6 +58,8 @@ public class Money {
         return false;
     }
     
+    /*
+    //doesn't work correctly for some reason
     public Money minus(Money decreaser) {
         int totalEuros = this.euros - decreaser.euros;
         int totalCents = this.cents - decreaser.cents;
@@ -77,5 +79,18 @@ public class Money {
         Money newMoney = new Money(totalEuros, totalCents);
         
         return newMoney;
+    }
+    */
+    
+    public Money minus(Money decreaser) {
+        int currentMoney = (this.euros * 100) + this.cents;
+        int decreaserMoney = (decreaser.euros * 100) + decreaser.cents;
+        int differenceOfMoney = currentMoney - decreaserMoney;
+        
+        if (differenceOfMoney < 0) {
+            return new Money(0, 0);
+        } else {
+            return new Money(differenceOfMoney / 100, differenceOfMoney % 100);
+        }
     }
 }
